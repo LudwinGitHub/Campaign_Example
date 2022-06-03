@@ -13,9 +13,9 @@ public class Campaign {
     private String name;
     @Column(name = "keywords", nullable = false)
     private String keyWords;
-    @Column(name = "bid amount", nullable = false)
+    @Column(name = "bidAmount", nullable = false)
     private int bidAmount;
-    @Column(name = "campaign fund", nullable = false)
+    @Column(name = "campaignFund", nullable = false)
     private int campaignFund;
     @Column(name = "town")
     private String campaignTown;
